@@ -1,4 +1,4 @@
-# Web-User-Interface-Design
+# Practical 1
 # Project Title: Bouquera
 
 ## Table of Contents
