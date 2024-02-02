@@ -1,25 +1,32 @@
+body {
+  background-color: #ffd5d7;
+}
+
 
 header {
     text-align: center;
     font-size:70px;
+    background-color: #ad5f62;
     color: rgb(255, 202, 202);
-    background-color: #da767b;
     text-decoration: underline;
+    padding-bottom: 2%;
 }
 
+
 nav {
-    
-    text-align: center;
+  background-color: #ad5f62;
+  text-align: center;
 }
 
 
 .selected {
   background-color: #ffd5d7;
   border-radius: 12px 12px 0 0;
+  border-bottom: 1.5px solid #ffd5d7 ;
 }
 
 .bg {
-  background-image: url("assets/imgs/flowerbg.jpg");
+  background-image: url("imgs/flowerbg.jpg");
   height: 25%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +38,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #da767b;
+    
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -46,16 +53,18 @@ ul {
   
   li a {
     border-radius: 12px 12px 0 0;
+    border : 1.5px solid #ad5f62;
     display: block;
-    color: rgb(128, 12, 12);
+    background-color: #c48488;
+    color: #665259;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: underline;
+    text-decoration: none;
     font-size:20px;
   }
   
   li a:hover {
-    background-color: #c4545a;
+    background-color: #ffd5d7;
   }
 
 article {
@@ -85,7 +94,10 @@ table, th {
 
 .container {
   position: relative;
-  margin: 0 auto;
+  margin: 2.5 auto;
+  float:left;
+  padding-left: 4px;
+  padding-bottom: 2px;
 }
 
 .container img {
@@ -99,18 +111,38 @@ table, th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.363);
   color: #f1f1f1;
-  width: 28.3%;
-  padding: 15px;
+  width: 99%;
+  max-height: 30%;
+  text-overflow: ellipsis;
+  text-align: center;
 }
 
-#one {
-  background-color: #c4545a;
+
+.categorized {
+  font-size:30px;
+  width: 100%;
+  padding: 2px;
+  text-align: center;
+  color: #665259;
+  background-color: #f1f1f1;
 }
 
-#two {
-  background-color: #000000;
+footer {
+  margin-top: 5%;
+  float: left;
+  font-size:40px;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  color: #665259;
+  background-color: #f1f1f1;
 }
 
-#three {
-  background-color: #ae54c4;
+.footer {
+  float: left;
+  font-size:20px;
+  width: 100%;
+  text-align: center;
+  color: #665259;
+  background-color: #f1f1f1;
 }
