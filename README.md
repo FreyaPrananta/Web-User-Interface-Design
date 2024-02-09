@@ -17,24 +17,25 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 ## Key Features
 - **Week 1:** Basic web page layout with title navigation between different page, some images
 - **Week 2:** the use of colour and improving the looks overall
-- **Week 3:** changing images from form to grid, and text on image, improving looks and colour
-- **Week 4:** fixing imprefection, footer, changing layout
+- **Week 3:** changing images from form to grid, and text on image, improving looks and colour, fixing imprefection, footer, changing layout
+- **Week 4:** table, grid, background image, better table layout, improving looks
+
 
 ## Learning Reflections
 ### Challenges
 - **Week 1:** remembering past experience with html
 - **Week 2:** styling with CSS to make the site visually appealing and fixing bugs 
-- **Week 3:** image doesn't allign, css become a bit chaotic and hard to navigate
-- **Week 4:** image doesn't allign, css overlap, text overflow
+- **Week 3:** image doesn't allign, css become a bit chaotic and hard to navigate,text overflow
+- **Week 4:** why background image isn't appearing, alligning and sizing
 
 ### Insights
 - **Week 1:** Learned how to find things and how to execute it 
 - **Week 2:** Discovered how CSS can transform the look and feel of a webpage, making it more engaging.
-- **Week 3:** naming is important, need to keep it contextual and easy to understand
-- **Week 4:** learned how to make things look more cohesive and purposeful
+- **Week 3:** learned how to make things look more cohesive and purposeful
+- **Week 4:** for links, how to back out of a folder, css for forms
 
 ## Development Updates
 - **Week 1:** Launched a basic webpage title and navigation.
 - **Week 2:** Updated the website with better layout, colour scheme.
-- **Week 3:** fixed the website issues and imperfection from previous week
-- **Week 4:** finished the basic of shop aspect of navigation
+- **Week 3:** fixed the website issues and imperfection from previous week, finished the basic of shop aspect of navigation
+- **Week 4:** launched arrangement class booking, added forms and timetables

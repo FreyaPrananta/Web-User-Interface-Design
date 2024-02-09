@@ -88,7 +88,7 @@ th, td {
 
 table, th {
   background-color: #cc5f65;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .container {
@@ -153,21 +153,47 @@ footer {
 
 .level {
   background-color: #df797e;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .formbg {
   background-image: url("../../assets/imgs/flowerbg3.jpg");
-  min-height: 350px;
+  min-height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.form {
+.formcontainer {
   position: absolute;
   margin: 20px;
-  width: 100%;
+  max-width: 300px;
+  min-width: 300px;
   padding: 16px;
+  background-color:#ffd5d7a8;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-top: 4px;
+  margin-bottom: 3px;
+  background-color: #cc6a90;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #b1416c;
 }

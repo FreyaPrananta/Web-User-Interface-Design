@@ -72,17 +72,20 @@
         </table>
 
     <div class="formbg">
-        <form action="formcompletion.html" class="form">
+        <form action="formcompletion.html" class="formcontainer">
             <h1 class="categorized">Book A Class</h1>
             <label for="name"><b>Name</b></label>
             <input type="text" placeholder="Marie Adams" name="name" required>
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="example@gmail.com" name="email" required>
-            <label for="timetable">Timetable</label>
+            <label for="timetable"><b>Timetable</b></label>
             <select id="timetable" name="timetable">
             <option value="begmon">Beginner, Monday</option>
             <option value="begthur">Beginner, Thursday</option>
+            <option value="begsat">Beginner, Saturday</option>
+            <option value="intsun">Intermediate, Sunday</option>
             <option value="intmon">Intermediate, Monday</option>
+            <option value="intfri">Intermediate, Friday</option>
             <option value="extue">expert, Tuesday</option>
             <option value="exfri">expert, Friday</option>
         </select>
