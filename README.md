@@ -19,7 +19,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 2:** the use of colour and improving the looks overall
 - **Week 3:** changing images from form to grid, and text on image, improving looks and colour, fixing imprefection, footer, changing layout
 - **Week 4:** table, grid, background image, better table layout, improving looks
-- **Week 5:** gallery in grid, turning shop to grid
+- **Week 5:** gallery in grid, turning shop to grid.grid text
 
 
 ## Learning Reflections
@@ -35,11 +35,11 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 2:** Discovered how CSS can transform the look and feel of a webpage, making it more engaging.
 - **Week 3:** learned how to make things look more cohesive and purposeful
 - **Week 4:** for links, how to back out of a folder, css for forms
-- **Week 5:** how to do grid
+- **Week 5:** how to do grid for image and text
 
 ## Development Updates
 - **Week 1:** Launched a basic webpage title and navigation.
 - **Week 2:** Updated the website with better layout, colour scheme.
 - **Week 3:** fixed the website issues and imperfection from previous week, finished the basic of shop aspect of navigation
 - **Week 4:** launched arrangement class booking, added forms and timetables
-- **Week 5:** gallery added, shop changed slightly
+- **Week 5:** gallery added, shop changed slightly, layout for home using grid

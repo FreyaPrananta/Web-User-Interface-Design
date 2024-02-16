@@ -1,0 +1,267 @@
+body {
+  background-color: #ffd5d7;
+}
+
+
+header {
+    text-align: center;
+    font-size:70px;
+    background-color: #ad5f62;
+    color: rgb(255, 202, 202);
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
+
+nav {
+  background-color: #ad5f62;
+  text-align: center;
+}
+
+
+.selected {
+  background-color: #ffd5d7;
+  border-radius: 12px 12px 0 0;
+  border-bottom: 1.5px solid #ffd5d7 ;
+}
+
+.bg {
+  background-image: url("../../assets/imgs/titlebg.jpg");
+  min-height: 125px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    border-radius: 12px 12px 0 0;
+    border : 1.5px solid #ad5f62;
+    display: block;
+    background-color: #c48488;
+    color: #665259;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  li a:hover {
+    background-color: #ffd5d7;
+  }
+
+article {
+  color: rgb(138, 59, 59);
+  background-color: #ffcbcd;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+table {
+  width: 100%;
+}
+table, th, td {
+  border: 2px solid #ffffffa4;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #e4b6b8;
+  padding: 15px;
+}
+
+table, th {
+  background-color: #cc5f65;
+  font-size: 15px;
+}
+
+.categorized {
+  font-size:30px;
+  width: 100%;
+  padding: 2px;
+  text-align: center;
+  color: #665259;
+  background-color: #f1f1f1;
+}
+
+footer {
+  margin-top: 5%;
+  float: left;
+  font-size:40px;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  color: #665259;
+  background-color: #f1f1f1;
+}
+
+.footer {
+  float: left;
+  font-size:20px;
+  width: 100%;
+  text-align: center;
+  color: #665259;
+  background-color: #f1f1f1;
+}
+
+.unavailable {
+  background-color: #8a7475;
+  color: #000000;
+}
+
+.level {
+  background-color: #df797e;
+  font-size: 15px;
+}
+
+.formbg {
+  background-image: url("../../assets/imgs/flowerbg3.jpg");
+  min-height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.formcontainer {
+  position: absolute;
+  margin: 20px;
+  max-width: 300px;
+  min-width: 300px;
+  padding: 16px;
+  background-color:#ffd5d7a8;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-top: 4px;
+  margin-bottom: 3px;
+  background-color: #cc6a90;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #b1416c;
+}
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 0.2%;
+}
+
+.column {
+  -ms-flex: 24.5%;
+  flex: 24.5%;
+  max-width: 24.5%;
+  padding: 0 0.2%;
+}
+
+.column, .coloumn-shop img {
+  margin-top: 2%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.column-shop {
+  position: relative;
+  -ms-flex: 32.9%;
+  flex: 32.9%;
+  max-width: 32.9%;
+  padding: 0 0.2%;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.452);
+  color: #f1f1f1;
+  text-align: center;
+  width: 98.7%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 49%;
+    flex: 49%;
+    max-width: 49%;
+    padding: 0 0.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column-shop {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.grid-container {
+  display: grid;
+  gap: 15px;
+  padding: 15px;
+}
+
+.grid-item {
+  background-color: #c4839c;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.item0 {
+font-size: 25px;
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 2 ;
+}
+
+.item2 {
+  grid-column: 2;
+  grid-row: 2 ;
+}
+
+.item3 {
+  grid-column: 1 /span 2;
+  grid-row: 3;
+}
