@@ -205,6 +205,7 @@ input[type=text], select {
 
 .content {
   position: absolute;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.452);
   color: #f1f1f1;
   text-align: center;
