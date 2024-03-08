@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lab 5</title>
+        <link rel="stylesheet" href="assets/css/screen.css">
+    </head>
+    <body>
+        <header><div class="bg">Bouquera</div></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Flower Arrangements Shop</a></li>
+                <li><a class="selected">Book Arrangement Class
+                <li><a href="wedding.html">Book Wedding Decor</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+        </nav>
+        <h1 class="categorized">Timetable</h1>
+        <table >
+            <tr>
+                <th>Level</th>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td rowspan="3" class="level">Beginner</td>
+                <td>Monday</td> 
+                <td>1pm-3pm</td>
+                <td class="begmon">Available</td>
+            </tr>
+            <tr>
+                <td>Thursday</td> 
+                <td>12pm-2pm</td>
+                <td class="begthur">Available</td>
+            </tr>
+            <tr>
+                <td>Saturday</td> 
+                <td>2pm-4pm</td>
+                <td class="begsat">Available</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="level">Intermediate</td>
+                <td>Sunday</td> 
+                <td>1pm-3pm</td>
+                <td class="intsun">Available</td>
+            </tr>
+            <tr>
+                <td>Monday</td> 
+                <td>3pm-5pm</td>
+                <td class="intmon">Available</td>
+            </tr>
+            <tr>
+                <td>Friday</td> 
+                <td>8am-10am</td>
+                <td class="intfri">Avilable</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="level">Expert</td>
+                <td>Tuesday</td> 
+                <td>1pm-3pm</td>
+                <td class="extue">Available</td>
+            </tr>
+            <tr>
+                <td>Friday</td> 
+                <td>12pm-2pm</td>
+                <td class="exfri">Available</td>
+            </tr>
+        </table>
+
+    <div class="formbg">
+        <form onsubmit="submitFunction()" class="formcontainer">
+            <h1 class="categorized">Book A Class</h1>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Marie Adams" name="name" required>
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="example@gmail.com" name="email" required>
+            <label for="timetable"><b>Timetable</b></label>
+            <select id="timetable" name="timetable">
+            <option value="begmon">Beginner, Monday</option>
+            <option value="begthur">Beginner, Thursday</option>
+            <option value="begsat">Beginner, Saturday</option>
+            <option value="intsun">Intermediate, Sunday</option>
+            <option value="intmon">Intermediate, Monday</option>
+            <option value="intfri">Intermediate, Friday</option>
+            <option value="extue">expert, Tuesday</option>
+            <option value="exfri">expert, Friday</option>
+        </select>
+        <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

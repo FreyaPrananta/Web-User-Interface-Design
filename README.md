@@ -20,7 +20,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 3:** changing images from form to grid, and text on image, improving looks and colour, fixing imprefection, footer, changing layout
 - **Week 4:** table, grid, background image, better table layout, improving looks
 - **Week 5:** gallery in grid, turning shop to grid.grid text
-- **Week 7:** grid for text and video, change button colour using js
+- **Week 7:** grid for text and video, change button colour using js, make form do something
 
 
 ## Learning Reflections
@@ -30,7 +30,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 3:** image doesn't allign, css become a bit chaotic and hard to navigate,text overflow
 - **Week 4:** why background image isn't appearing, alligning and sizing
 - **Week 5:** fixing text over the image when changing to grid
-- **Week 7:** making home aesthetically pleasing
+- **Week 7:** making home aesthetically pleasing, figuring out how to change certain part of table using JS and HTML
 
 ### Insights
 - **Week 1:** Learned how to find things and how to execute it 
@@ -38,7 +38,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 3:** learned how to make things look more cohesive and purposeful
 - **Week 4:** for links, how to back out of a folder, css for forms
 - **Week 5:** how to do grid for image and text
-- **Week 7:** video insert, query selector js
+- **Week 7:** video insert, query selector js, how to prevent page from refreshing/redirecting
 
 ## Development Updates
 - **Week 1:** Launched a basic webpage title and navigation.
@@ -46,4 +46,4 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 3:** fixed the website issues and imperfection from previous week, finished the basic of shop aspect of navigation
 - **Week 4:** launched arrangement class booking, added forms and timetables
 - **Week 5:** gallery added, shop changed slightly, layout for home using grid
-- **Week 7:** home page finished, change button colour change to using js
+- **Week 7:** home page finished, change button colour change to using js, form finished 
