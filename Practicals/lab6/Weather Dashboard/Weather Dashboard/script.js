@@ -9,6 +9,7 @@ document.getElementById('submitBtn').addEventListener('click', function() {
 // Attach event listeners to sorting buttons for sorting by city name or temperature
 document.getElementById('sortByCity').addEventListener('click', sortByCity);
 document.getElementById('sortByTemp').addEventListener('click', sortByTemperature);
+document.getElementById('sortByCondition').addEventListener('click', sortByCondition);
 
 // Function to fetch weather data from OpenWeatherMap API for a given city
 function fetchWeatherData(city) {
@@ -48,6 +49,7 @@ function createWeatherLog(data) {
     // Assign class names for styling purposes
     cityName.className = "city";
     temperature.className = "temperature";
+    conditions.className = "conditions";
 
     // Set the content of the elements based on the weather data
     cityName.textContent = data.name;
@@ -93,6 +95,7 @@ function handleDragOver(event) {
     event.preventDefault();
 }
 
+
 // Function to handle the drop event, reordering log entries
 function handleDrop(event) {
     event.preventDefault();
@@ -103,15 +106,28 @@ function handleDrop(event) {
     list.insertBefore(draggedElement, droppedOn.nextSibling);
 }
 
+let cityAsc = 0;
+let tempAsc = 0;
+let conAsc = 0;
+
 // Function to sort the weather log entries by city name
 function sortByCity() {
     const logList = document.getElementById('logList');
     const logs = Array.from(logList.children);
+    if(cityAsc==0)
+    {cityAsc++;}
+    else
+    {cityAsc=0;}
+    tempAsc=0;
+    conAsc=0;
 
     logs.sort((a, b) => {
         const cityA = a.querySelector('span.city').textContent;
         const cityB = b.querySelector('span.city').textContent;
-        return cityA.localeCompare(cityB);
+        if(cityAsc == 1)
+            {return cityA.localeCompare(cityB);}
+        else
+            {return cityB.localeCompare(cityA);}
     });
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
@@ -122,10 +138,46 @@ function sortByTemperature() {
     const logList = document.getElementById('logList');
     const logs = Array.from(logList.children);
 
+    if(tempAsc==0)
+    {tempAsc++;}
+    else
+    {tempAsc=0;}
+    cityAsc=0;
+    conAsc=0;
+
     logs.sort((a, b) => {
         const tempA = parseFloat(a.querySelector('span.temperature').textContent.split(':')[1]);
         const tempB = parseFloat(b.querySelector('span.temperature').textContent.split(':')[1]);
-        return tempA - tempB;
+        if(tempAsc == 1)
+            {return tempA - tempB;}
+        else
+            {return tempB - tempA;}
+        
+    });
+
+    logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
+}
+
+function sortByCondition() {
+    const logList = document.getElementById('logList');
+    const logs = Array.from(logList.children);
+
+    if(conAsc==0)
+    {conAsc++;}
+    else
+    {conAsc=0;}
+    tempAsc=0;
+    cityAsc=0;
+
+    logs.sort((a, b) => {
+        const conA = a.querySelector('span.conditions').textContent.split(':')[1];
+        const conB = b.querySelector('span.conditions').textContent.split(':')[1];
+        console.log(conAsc);
+        if(conAsc == 1)
+            {return conA.localeCompare(conB);}
+        else
+            {return conB.localeCompare(conA);}
+        
     });
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
