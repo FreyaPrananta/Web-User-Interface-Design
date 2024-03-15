@@ -153,7 +153,7 @@ input[type=text], input[type=email], select {
 }
 
 
-.btn {
+#btn {
   margin-top: 4px;
   margin-bottom: 3px;
   background-color: #cc6a90;
@@ -267,11 +267,11 @@ grid-row: 1;
   margin: auto;
 }
 
-.quote2 {
+#quote2 {
   display: none;
 }
 
-#quote1, #quote2 {
+#change {
   background-color: #00000000;
   color: #f4cacc;
   margin: auto;

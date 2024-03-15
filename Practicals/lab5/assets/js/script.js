@@ -1,5 +1,10 @@
-document.querySelector('.btn').addEventListener('mouseover', function(){this.style.backgroundColor = '#b1416c';});
-document.querySelector('.btn').addEventListener('mouseout', function(){this.style.backgroundColor = '';});
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log(document.querySelector('#btn'))
+  const button = document.querySelector('#btn');
+  if(button!== null) {
+button.addEventListener('mouseover', function(){this.style.backgroundColor = '#b1416c';});
+button.addEventListener('mouseout', function(){this.style.backgroundColor = '';});
+  }
 
 function submitFunction() {
     event.preventDefault();
@@ -46,12 +51,8 @@ function submitFunction() {
 }
 
 $(document).ready(function(){
-  $("#quote1").click(function(){
-    $(".quote2").hide();
-    $(".quote1").show();
-  });
-  $("#quote2").click(function(){
-    $(".quote1").hide();
-    $(".quote2").show();
-  });
+  $("#change").click(function(){
+    $("#quote2").toggle();
+    $("#quote1").toggle();
+  });});
 });
