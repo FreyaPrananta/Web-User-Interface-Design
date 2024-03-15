@@ -29,6 +29,7 @@
 
 /* Individual list items representing weather logs, styled as cards with subtle shadows for depth */
 #logList li {
+    animation: fadeIn 1s;
     margin-bottom: 8px; /* Adds space between individual log entries */
     padding: 10px; /* Padding inside each log entry for spacing */
     background-color: white; /* White background for contrast with the container */

@@ -110,6 +110,10 @@ let cityAsc = 0;
 let tempAsc = 0;
 let conAsc = 0;
 
+let cityFade = 200;
+let tempFade = 200;
+let conFade = 200;
+
 // Function to sort the weather log entries by city name
 function sortByCity() {
     const logList = document.getElementById('logList');
@@ -132,6 +136,8 @@ function sortByCity() {
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
 }
+
+
 
 // Function to sort the weather log entries by temperature
 function sortByTemperature() {
@@ -182,3 +188,5 @@ function sortByCondition() {
 
     logs.forEach(log => logList.appendChild(log)); // Re-append to apply the new order
 }
+
+
