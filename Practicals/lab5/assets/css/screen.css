@@ -196,7 +196,7 @@ input[type=text], input[type=email], select {
 
 .content {
   position: absolute;
-  bottom: 0;
+  bottom: 3px;
   background: rgba(0, 0, 0, 0.452);
   color: #f1f1f1;
   text-align: center;
@@ -251,7 +251,31 @@ grid-row: 1;
   grid-column: 1 /span 2;
   grid-row: 4;
 }
+.index-vid {
+  margin: auto;
+  position: fixed;
+  width: 99%;
+}
 
+.index-content {
+  position: fixed;
+  text-align: center;
+  min-width: 99%;
+  top: 50%;
+  background-color: #0000009d;
+  color: #ffcdce;
+  margin: auto;
+}
+
+.quote2 {
+  display: none;
+}
+
+#quote1, #quote2 {
+  background-color: #00000000;
+  color: #f4cacc;
+  margin: auto;
+}
 
 @media screen and (max-width: 1300px) {
   .item0 {

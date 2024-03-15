@@ -44,3 +44,14 @@ function submitFunction() {
     alert("form successfully submitted");
     return false;
 }
+
+$(document).ready(function(){
+  $("#quote1").click(function(){
+    $(".quote2").hide();
+    $(".quote1").show();
+  });
+  $("#quote2").click(function(){
+    $(".quote1").hide();
+    $(".quote2").show();
+  });
+});

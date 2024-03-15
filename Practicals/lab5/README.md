@@ -16,14 +16,18 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 
 ## Key Features
 - **Week 7:** make form do something
+- **Week 8:** home page, about page, chnaging navigation
 
 ## Learning Reflections
 ### Challenges
 - **Week 7:** figuring out how to change certain part of table using JS and HTML
+- **Week 8:** jquery
 
 ### Insights
 - **Week 7:** how to prevent page from refreshing/redirecting
+- **Week 8:** jquery
 
 
 ## Development Updates
 - **Week 7:** form finished 
+- **Week 8:** finished website

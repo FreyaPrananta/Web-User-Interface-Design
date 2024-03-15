@@ -21,6 +21,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 4:** table, grid, background image, better table layout, improving looks
 - **Week 5:** gallery in grid, turning shop to grid.grid text
 - **Week 7:** grid for text and video, change button colour using js, make form do something
+- **Week 8:** home page, about page, chnaging navigation
 
 
 ## Learning Reflections
@@ -31,6 +32,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 4:** why background image isn't appearing, alligning and sizing
 - **Week 5:** fixing text over the image when changing to grid
 - **Week 7:** making home aesthetically pleasing, figuring out how to change certain part of table using JS and HTML
+- **Week 8:** jquery
 
 ### Insights
 - **Week 1:** Learned how to find things and how to execute it 
@@ -39,6 +41,7 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 4:** for links, how to back out of a folder, css for forms
 - **Week 5:** how to do grid for image and text
 - **Week 7:** video insert, query selector js, how to prevent page from refreshing/redirecting
+- **Week 8:** jquery
 
 ## Development Updates
 - **Week 1:** Launched a basic webpage title and navigation.
@@ -47,3 +50,4 @@ Our target audience ranged from people who needs decoration or bouquet for weddi
 - **Week 4:** launched arrangement class booking, added forms and timetables
 - **Week 5:** gallery added, shop changed slightly, layout for home using grid
 - **Week 7:** home page finished, change button colour change to using js, form finished 
+- **Week 8:** website finished
